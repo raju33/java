@@ -1,0 +1,16 @@
+584 211 280
+6396
+
+
+
+packageinstall.pp
+
+  package { 'screen':
+    ensure => 'installed',
+  }
+
+
+
+puppet apply packageinstall.pp -v
+
+https://www.digitalocean.com/community/tutorials/how-to-install-puppet-in-standalone-mode-on-centos-7
